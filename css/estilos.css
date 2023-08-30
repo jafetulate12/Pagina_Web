@@ -1,0 +1,410 @@
+*{
+  
+    max-width: auto;
+}
+
+body{
+    background-color: #BAACA4;
+  }
+
+
+  
+  .logo {
+    margin-left:auto; 
+    float: left;
+  }
+  
+  .logo img {
+    max-width:34%;
+    height: 23%;
+    float: left;
+  }
+  
+  .title {
+    padding: 0% 0% 0% 255px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
+/*=========================================================*/
+
+.slideshow {
+  margin: 5% 0% 5% 23%;
+  float: left;
+    margin-left:23px;
+    padding-left: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 45%;
+  }
+  
+  .slideshow img {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    animation: slide 14s linear infinite;
+    margin-right: 0px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-300%);
+    }
+  }
+  
+  
+.img{
+    border: solid;
+    width: 5%;
+    height: 23px;
+}
+
+
+  .tf{
+    text-align: center;
+    color: #ECDDB6;
+    font-size: 123%;
+  }
+  .f{
+    float: left;
+    font-size: 346%;
+    color: rgba(0, 0, 255, 0.552);
+  }
+
+  .w{
+    float: left;
+    font-size: 346%;
+    color: rgba(0, 128, 0, 0.56);
+  }
+  .intro{
+    background-color: #803A0A;
+  }
+  .p1s{
+    font-size:32px;
+    border: none;
+    background-color:#96886533;
+    float: right;
+    font-family: 'Alkatra', cursive;
+  }
+   .h2{
+    background-color: #7d2a0cab; 
+    margin: 8% 6% 0% 0%;
+    padding:0% 2% 0% 2%;
+    border: none;
+    color: #000000;
+  }
+
+  .p2s{
+    margin: 3% 0% 6% 0%;
+    font-size: 18px;
+    border: none;
+    background-color:#8376564d;
+    border-radius: 2%;
+    float: left;
+    font-family: 'Alkatra', cursive;
+  }
+
+  /*=====================*/
+  .box{
+    display: flex;
+    justify-content: center;
+		align-items: center;
+  }
+  .imgbox{
+
+    width: 25%;
+    display: block;
+    float: left;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1{
+   padding: 0%;
+    border: none;
+    width: 110%;
+
+  }
+  .img2{
+     border: none;
+     width: 110%;
+   }
+   .img3{
+    border: none;
+    width: 110%;
+  }
+
+   .imgbox2{
+    width: 102%;
+    margin:33px 0px 0px 0px ;
+    display: flex;
+    float: left;
+    clear: both;
+  }
+  figcaption{
+    font-family: 'Alkatra', cursive;
+  }
+  .imgbox2{
+    background-color: #524c3e5c;
+    width: 78%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgp{
+    border: none;
+    width: 56%;
+    height: 388px;
+  }
+  .p3s{
+    margin: 3% 0% 6% 2%;
+    font-size: 18px;
+    border: none;
+    background-color:#43351208;
+    float: left;
+    font-family: 'Alkatra', cursive;
+  }
+
+  .fono{
+    background-color: #9e96825c;
+    width: 56%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hhh{
+    border-radius: 23%;
+    margin: 1% 0% 4% 13%;
+    background-color: #81631993;
+    display: flex;
+    justify-content: center;
+		align-items: center;
+    width: 45%;
+    height: 56%; 
+  }
+  .hhh:hover{
+    background-color: #d5a05a;
+
+  }
+  .pes{
+    padding: 0% 0% 2% 0%;
+    margin: 1% 10% 0% 0%;
+    font-size: 23px;
+    border: none;
+
+    font-family: 'Alkatra', cursive;
+  }
+
+  .h22{
+    max-width: 56%;
+    text-align: center;
+    border-radius: 45%;
+    background-color: #7d2a0cab; 
+    margin: 1% 0% 1% 16%;
+    padding:2% 7% 2% 7%;
+    color: #000000;
+  }
+  .contenedor-imagenes img {
+    display: inline-block;
+    width: 23%; /* para que cada imagen ocupe un tercio del ancho del contenedor */
+  }
+  
+  .imgbox22{
+    width: 23%;
+    margin: 3% 0% 7% 0% ;
+    
+  }
+
+.box{
+  display: flex;
+  margin: 0% 0% 0% 0%;
+}  
+
+  .what{
+    font-family: 'Alkatra', cursive;
+    margin: 5% 0% 0% 4%;
+  }
+  .w1{
+    font-size: 766%;
+    color: rgba(0, 128, 0, 0.56);
+    margin: 5% 0% 0% 8%;
+  }
+  .face{
+    display: flex;
+    font-family: 'Alkatra', cursive;
+    margin: 5% 0% 0% 04%;
+  }
+  .f1{
+    font-size: 776%;
+    color: rgba(0, 0, 255, 0.552);
+    margin: 5% 0% 0% 5%;
+  }
+  .fx{
+    font-size: 766%;
+    margin: 5% 0% 0% 8%;
+  }
+  .f{
+    display: flex;
+    font-size: 389%;
+    margin: 0% 0% 0% 8%;
+  }
+  .w{
+    display: flex;
+    margin: 0% 0% 0% 9%;
+    font-size: 389%;
+    }
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  /*---------------------------------------*/
+ .favicon{
+  size:32px 
+ }
+
+
+
+header {
+  margin: 3% 0% 0% 0%;
+  background-color: #4E342E;
+  display: flow-root;
+  align-items: center;
+  padding: 20px;
+}
+.logo img {
+ margin: 0% 0% 0% 23%;
+  max-width: 60%;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+body {
+  
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+
+
+.plz{
+  width: 35%;
+}
+
+#formu{
+  background-color: #000000bb;
+}
+#lef{
+  color: #fff;
+}
+.big{
+  color: #fff;
+  font-size: 27px;
+}
+
+/*=====================================*/
+
+/* Estilo del botón agregar al carrito */
+.agregar-carrito {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilo del carrito */
+.carrito {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+/* Estilo de la lista de productos en el carrito */
+.carrito-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.carrito-lista li {
+  margin-bottom: 5px;
+}
+
+/* Estilo del botón vaciar carrito */
+.carrito-vaciar {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilo del total de la compra */
+.carrito-total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Estilo del mensaje de carrito vacío */
+.carrito-vacio {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+.B{
+  padding: 2%;
+  width: 23%;
+  height: 23%;
+  background-color: #ceb8b8;
+}
+.L{
+  font-size: 34px;
+}
+
